@@ -75,6 +75,7 @@ Il sistema e' progettato per funzionare con:
 - 2x sensore DHT11
 - Display LCD 16x2
 - LED rosso, verde, blu
+- Potenziometro
 - Buzzer
 
 Il codice Arduino serializza i dati in un formato che uno script separato puo' scrivere nel CSV letto da questa dashboard.
