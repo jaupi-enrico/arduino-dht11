@@ -13,13 +13,6 @@ except ImportError:
     print("[ERRORE] DearPyGui non installato. Esegui: pip install dearpygui")
     sys.exit(1)
 
-try:
-    import pandas as pd
-    PANDAS_OK = True
-except ImportError:
-    PANDAS_OK = False
-    print("[WARN] Pandas non trovato. Analisi statistica limitata.")
-
 CSV_FILE = sys.argv[1] if len(sys.argv) > 1 else "dati_arduino.csv"
 REFRESH_RATE = 3.0
 MAX_PUNTI_GRAFICO = 100
