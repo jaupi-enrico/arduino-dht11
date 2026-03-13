@@ -2,7 +2,7 @@
 
 Dashboard Python per la visualizzazione in tempo reale dei dati di temperatura e umidita' letti da un sistema Arduino con due sensori DHT11.
 
----
+
 
 ## Requisiti
 
@@ -12,7 +12,6 @@ pip install dearpygui pandas
 
 `pandas` e' opzionale: se non installato, l'analisi statistica rimane disponibile ma limitata.
 
----
 
 ## Avvio
 
@@ -20,8 +19,6 @@ pip install dearpygui pandas
 python serial_to_csv.py                  # usa salva i dati della porta seriale in dati_arduino.csv
 python csv_to_gui.py                  # usa dati_arduino.csv nella cartella
 ```
-
----
 
 ## Formato CSV atteso
 
@@ -40,8 +37,6 @@ Il file CSV deve avere le seguenti colonne:
 | `stato` | stringa | `NORMALE`, `ATTENZIONE` o `ALLARME` |
 | `buzzer_muto` | stringa | `SI` o `NO` |
 
----
-
 ## Funzionalita'
 
 **Grafici in tempo reale**
@@ -59,8 +54,6 @@ Testo generato automaticamente che riassume l'andamento del sistema, segnala sup
 **Aggiornamento manuale**
 Pulsante "Aggiorna ora" per forzare la rilettura del CSV senza aspettare il refresh automatico.
 
----
-
 ## Soglie
 
 Le soglie di stato sono configurabili direttamente nel codice:
@@ -70,8 +63,6 @@ SOGLIA_ALTA  = 26.0
 SOGLIA_MEDIA = 25.0
 ```
 
----
-
 ## Parametri configurabili
 
 | Parametro | Default | Descrizione |
@@ -79,8 +70,6 @@ SOGLIA_MEDIA = 25.0
 | `CSV_FILE` | `dati_arduino.csv` | File CSV da leggere |
 | `REFRESH_RATE` | `3.0` | Secondi tra un aggiornamento e il successivo |
 | `MAX_PUNTI_GRAFICO` | `100` | Punti massimi visualizzati nei grafici |
-
----
 
 ## Hardware Arduino compatibile
 
@@ -93,8 +82,6 @@ Il sistema e' progettato per funzionare con:
 - Ricevitore IR (opzionale)
 
 Il codice Arduino serializza i dati in un formato che uno script separato puo' scrivere nel CSV letto da questa dashboard.
-
----
 
 ## Struttura del progetto
 
