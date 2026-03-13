@@ -7,7 +7,7 @@ Dashboard Python per la visualizzazione in tempo reale dei dati di temperatura e
 ## Requisiti
 
 ```
-pip install dearpygui
+pip install dearpygui pyserial
 ```
 
 ## Avvio
