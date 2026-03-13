@@ -7,11 +7,8 @@ Dashboard Python per la visualizzazione in tempo reale dei dati di temperatura e
 ## Requisiti
 
 ```
-pip install dearpygui pandas
+pip install dearpygui
 ```
-
-`pandas` e' opzionale: se non installato, l'analisi statistica rimane disponibile ma limitata.
-
 
 ## Avvio
 
