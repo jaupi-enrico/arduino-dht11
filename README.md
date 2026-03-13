@@ -76,7 +76,6 @@ Il sistema e' progettato per funzionare con:
 - Display LCD 16x2
 - LED rosso, verde, blu
 - Buzzer
-- Ricevitore IR (opzionale)
 
 Il codice Arduino serializza i dati in un formato che uno script separato puo' scrivere nel CSV letto da questa dashboard.
 
