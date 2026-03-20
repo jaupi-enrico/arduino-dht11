@@ -65,7 +65,7 @@ SOGLIA_MEDIA = 25.0
 | Parametro | Default | Descrizione |
 |---|---|---|
 | `CSV_FILE` | `dati_arduino.csv` | File CSV da leggere |
-| `REFRESH_RATE` | `3.0` | Secondi tra un aggiornamento e il successivo |
+| `REFRESH_RATE` | `2.0` | Secondi tra un aggiornamento e il successivo |
 | `MAX_PUNTI_GRAFICO` | `100` | Punti massimi visualizzati nei grafici |
 
 ## Hardware Arduino compatibile
